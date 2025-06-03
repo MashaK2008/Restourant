@@ -2,14 +2,45 @@
     display: flex;
     width: 100vw;
     height: 200px;
-    justify-content: center;
     background-color:#f8f9fa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .footer-icons{
-    justify-self: space-between;
+    display: flex;
+    width: 500px;
+    height: 100px;
+    justify-content: space-between;
+  
+
+}
+.footer-icons a i{
+    font-size: 22px;
+}
+.footer-icons a {
+    outline: none;
+    text-decoration: none;
+}
+.footer-icons a:link  {
+    color: black;
+}
+.footer-text{
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    
+    
+
+}
+.footer-text a{
+    outline: none;
+   text-decoration: none;
+    font-size: 22px;
     
 }
-.footer-icons i{
-    width: 100px;
-    height: 100px;
+.footer-text a:link {
+    color: black;
 }
