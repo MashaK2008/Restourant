@@ -1,0 +1,20 @@
+.Thanks{
+    width: 700px;
+    height: 500px;
+    background-color: rgba(229, 229, 229, 0.923);
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.all{
+    position: fixed;
+}
+.Thanks button{
+    
+}
