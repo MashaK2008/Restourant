@@ -29,3 +29,14 @@ margin: 0 auto;
 .rd{
     margin: 0;
 }
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.card img{
+    aspect-ratio: 3/2;
+}
