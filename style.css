@@ -22,7 +22,7 @@ body{
 }
 
 .carousel img{
-    width: 100vw;
+  width: 100vw;
     height: 90vh;
     object-fit: cover;
     margin: 35px 0 0 0;
