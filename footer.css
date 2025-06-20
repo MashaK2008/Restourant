@@ -14,6 +14,7 @@
     width: 500px;
     height: 100px;
     justify-content: space-between;
+    gap: 15px;
 }
 .footer-icons a i{
     font-size: 22px;
@@ -32,6 +33,8 @@
     display: flex;
     text-align: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 .footer-text a{
     outline: none;
@@ -59,23 +62,19 @@
 @media (max-width: 430px) {
   .footer {
     flex-direction: column;
-    text-align: center;
-    padding: 15px;
     gap: 10px;
   }
 
-  .footer-text a {
-    display: block;
-    margin: 5px 0;
-    font-size: 14px;
+  .footer-text {
+    flex-direction: column;
+    gap: 5px;
   }
 
-  .footer-icons i {
-    font-size: 1.2rem;
-    margin: 0 8px;
+  .footer-icons {
+    flex-wrap: wrap;
   }
 
-  .time h3, .time p {
-    font-size: 14px;
+  .carousel img {
+    height: 50vh;
   }
 }
