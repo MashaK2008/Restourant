@@ -1,95 +1,75 @@
 .footer {
     display: flex;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    background-color: #f8f9fa;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    background-color: #f8f9fa;
+    width: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 .footer-icons {
     display: flex;
-    width: 100%;
-    max-width: 400px;
-    justify-content: space-between;
-    gap: 15px;
+    justify-content: center;
+    gap: 20px;
     flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.footer-icons a {
+    color: black;
+    text-decoration: none;
 }
 
 .footer-icons a i {
     font-size: 22px;
-    margin: 20px 0;
-}
-
-.footer-icons a {
-    outline: none;
-    color: black;
-    text-decoration: none;
-}
-
-.footer-icons a:link {
-    color: black;
-}
-
-.footer-text {
-    width: 100%;
-    max-width: 400px;
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 15px;
-}
-
-.footer-text a {
-    outline: none;
-    text-decoration: none;
-    font-size: 20px;
-    color: black;
     margin: 10px 0;
 }
 
-.footer-text a:link {
+.footer-text {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+
+.footer-text a {
+    font-size: 18px;
+    text-decoration: none;
     color: black;
+    margin: 5px 0;
 }
 
 .time {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
 }
 
-.time h3 {
-    margin: 0;
-}
-
-.time p {
-    margin: 10px;
+.time h3, .time p {
+    margin: 5px 0;
+    text-align: center;
 }
 
 
 @media (max-width: 430px) {
-  .footer {
-    gap: 15px;
-  }
+    .footer-icons,
+    .footer-text {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+    }
 
-  .footer-icons,
-  .footer-text {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
+    .footer-text a {
+        font-size: 16px;
+    }
 
-  .footer-text a {
-    font-size: 16px;
-  }
-
-  .footer-icons a i {
-    font-size: 18px;
-  }
+    .footer-icons a i {
+        font-size: 18px;
+    }
 }
