@@ -1,80 +1,95 @@
-.footer{
+.footer {
     display: flex;
-    width: 100vw;
-    height: 200px;
+    width: 100%;
     max-width: 100%;
-    background-color:#f8f9fa;
-    display: flex;
+    height: auto;
+    background-color: #f8f9fa;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
 }
-.footer-icons{
+
+.footer-icons {
     display: flex;
-    width: 500px;
-    height: 100px;
+    width: 100%;
+    max-width: 400px;
     justify-content: space-between;
     gap: 15px;
+    flex-wrap: wrap;
 }
-.footer-icons a i{
+
+.footer-icons a i {
     font-size: 22px;
     margin: 20px 0;
 }
+
 .footer-icons a {
     outline: none;
     color: black;
     text-decoration: none;
 }
-.footer-icons a:link  {
+
+.footer-icons a:link {
     color: black;
 }
-.footer-text{
-    width: 400px;
+
+.footer-text {
+    width: 100%;
+    max-width: 400px;
     display: flex;
     text-align: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 15px;
 }
-.footer-text a{
+
+.footer-text a {
     outline: none;
-   text-decoration: none;
-    font-size: 22px;
+    text-decoration: none;
+    font-size: 20px;
     color: black;
-    margin: 15px 0;
+    margin: 10px 0;
 }
+
 .footer-text a:link {
     color: black;
 }
-.time{
+
+.time {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.time h3{
-    margin: 0 0 0 0;
+
+.time h3 {
+    margin: 0;
 }
-.time p{
+
+.time p {
     margin: 10px;
 }
 
+
 @media (max-width: 430px) {
   .footer {
-    flex-direction: column;
-    gap: 10px;
+    gap: 15px;
   }
 
+  .footer-icons,
   .footer-text {
     flex-direction: column;
-    gap: 5px;
+    align-items: center;
+    text-align: center;
   }
 
-  .footer-icons {
-    flex-wrap: wrap;
+  .footer-text a {
+    font-size: 16px;
   }
 
-  .carousel img {
-    height: 50vh;
+  .footer-icons a i {
+    font-size: 18px;
   }
 }
