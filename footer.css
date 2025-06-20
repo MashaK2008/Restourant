@@ -62,7 +62,7 @@ html, body {
 @media (max-width: 430px) {
   .footer-icons,
   .footer-text {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     gap: 10px;
   }
