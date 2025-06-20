@@ -8,9 +8,7 @@ header {
   position: relative;
   z-index: 10;
 }
-.footer{
-    margin-top: 20px;
-}
+
 .title{
     width: 100vw;
     height: 30px;
