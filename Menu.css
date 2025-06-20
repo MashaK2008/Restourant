@@ -4,6 +4,10 @@ body{
     width: 100%;
     height: 100%;
 }
+header {
+  position: relative;
+  z-index: 10;
+}
 .title{
     width: 100vw;
     height: 30px;
@@ -57,4 +61,22 @@ margin: 0 auto;
 }
 .card img{
     aspect-ratio: 3/2;
+}
+@media (max-width: 430px) {
+  .title {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 0;
+    gap: 20px;
+    scrollbar-width: none;
+    -ms-overflow-style: none; 
+  }
+
+  .title a {
+    flex: 0 0 auto;
+    font-size: 16px;
+    padding: 5px 10px;
+  }
 }
