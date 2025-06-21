@@ -4,14 +4,12 @@
   padding: 0;
 }
 
-body{
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
+body {
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
-.vert{
-    display: none;
-}
+
 .carousel,
 .carousel-inner,
 .carousel-item,
@@ -21,11 +19,11 @@ body{
   overflow: hidden;
 }
 
-.carousel img{
+.carousel img {
   width: 100vw;
-    height: 90vh;
-    object-fit: cover;
-    margin: 35px 0 0 0;
+  height: 90vh;
+  object-fit: cover;
+  margin: 35px 0 0 0;
 }
 
 
@@ -34,10 +32,23 @@ header {
   z-index: 10;
 }
 
+.car-2 {
+  display: none;
+}
+
 @media (max-width: 430px) {
-  .carousel img {
+  .car-1 {
+    display: none;
+  }
+
+  .car-2 {
+    display: block;
+  }
+
+  .car-2 img {
     height: 55vh;
     margin: 0;
+    aspect-ratio: 1/ 1;
   }
 
   .logo {
@@ -52,11 +63,4 @@ header {
     font-size: 1rem;
   }
 
-
-.vert{
-    display: block;
-}
-.hori{
-    display: none;
-}
 }
