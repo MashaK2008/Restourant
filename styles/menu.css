@@ -15,7 +15,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 75px;
+    margin-top: 50px;
 }
 
 .title a{
@@ -64,6 +64,9 @@ margin: 0 auto;
     aspect-ratio: 3/2;
 }
 @media (max-width: 430px) {
+    hr{
+        margin: 0;
+    }
   .title {
     display: flex;
     flex-direction: row;
