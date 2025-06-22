@@ -1,0 +1,17 @@
+.poloska{
+    margin-top: 75px;
+}
+hr {
+    z-index: -5;
+}
+.polos{
+    margin-bottom: 0px;
+}
+header *{
+    z-index: 100;
+}
+@media (max-width: 430px) {
+    .poloska{
+        margin-top: 7px;
+    }
+}
