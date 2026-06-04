@@ -1,0 +1,40 @@
+.booking {
+    width: 100%;
+    height: 78.5vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.booking h1{
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+.booking p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.booking .specification {
+    font-size: 16px;
+
+}
+
+@media (max-width: 430px) {
+    html body{
+    height: 100%;      
+    margin: 0;         
+    padding: 0;        
+    width: 100%;    
+    max-width: 100%;   
+    overflow-x: hidden;
+}
+.booking h1{
+    font-size: 32px;
+}
+.booking p {
+    font-size: 18px;
+}
+.booking .specification{
+    text-align: center;
+}
+}
